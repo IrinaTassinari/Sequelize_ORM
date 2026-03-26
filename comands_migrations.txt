@@ -1,0 +1,11 @@
+#Создание миграции
+npx sequelize-cli migration:generate --name create-accounts-table
+
+#Применение миграций
+npx sequelize-cli db:migrate
+
+#Откат последней миграции
+npx sequelize-cli db:migrate:undo
+
+#Откат всех миграций
+npx sequelize-cli db:migrate:undo:all

@@ -1,0 +1,14 @@
+Sequelize
+Это ORM или Object-Relational Mapping, то есть объектно-реляционное отображение. Это библиотека для Node.js, которая позволяет работать с базами данных, как с объектами в коде.
+
+npm i express dotenv mysql2 sequelize sequelize-cli
+npx sequelize-cli init
+
+
+мой вариант:
+npm install -g sequelize-cli
+sequelize-cli init
+
+меняем config.json => на сonfig.js
+
+"type": "module", - меняем, что бы была возможность работать с имнопртом и экспортом
